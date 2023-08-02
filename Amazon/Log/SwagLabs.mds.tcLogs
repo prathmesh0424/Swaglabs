@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="folders"/>
+		<Node name="logs">
+			<Node name="log idx=0000">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45139.7443486806"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{4B96365B-67CF-4ABC-B185-D2819CC28539}"/>
+				<Prp name="nameofroot" type="S" value="Keyword Test Log [SwagLabTest1]"/>
+				<Prp name="relpath" type="S" value="01-Aug-23_05_51 PM_51_726\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0001">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45139.7481287732"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{AF712935-B139-4E12-BCCA-89F901818A83}"/>
+				<Prp name="nameofroot" type="S" value="Keyword Test Log [SwagLabTest1]"/>
+				<Prp name="relpath" type="S" value="01-Aug-23_05_57 PM_18_326\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0002">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45139.7544033218"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{697E435E-1A5D-4AC9-9B15-9FE3A6E31C4F}"/>
+				<Prp name="nameofroot" type="S" value="Keyword Test Log [SwagLabTest1]"/>
+				<Prp name="relpath" type="S" value="01-Aug-23_06_06 PM_20_447\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0003">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45139.7553436921"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{3601309F-86B7-4262-A569-5341934C3370}"/>
+				<Prp name="nameofroot" type="S" value="Keyword Test Log [SwagLabTest1]"/>
+				<Prp name="relpath" type="S" value="01-Aug-23_06_07 PM_41_695\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0004">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45139.7623182639"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{88AB87EA-5E25-49F5-BB40-43DA8871E07E}"/>
+				<Prp name="nameofroot" type="S" value="Keyword Test Log [SwagLabTest1]"/>
+				<Prp name="relpath" type="S" value="01-Aug-23_06_17 PM_44_298\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0005">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45139.7731534838"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{523458C5-CA86-44B9-84D3-16C796C89906}"/>
+				<Prp name="nameofroot" type="S" value="Keyword Test Log [SwagLabTest]"/>
+				<Prp name="relpath" type="S" value="01-Aug-23_06_33 PM_20_461\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0006">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45140.5055026157"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{3435AD6E-9586-4442-BD5E-444725D4686E}"/>
+				<Prp name="nameofroot" type="S" value="Keyword Test Log [SwagLabTest]"/>
+				<Prp name="relpath" type="S" value="02-Aug-23_12_07 PM_55_426\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+		</Node>
+		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
+		<Prp name="version" type="S" value="11.0"/>
+	</Node>
+</Nodes>

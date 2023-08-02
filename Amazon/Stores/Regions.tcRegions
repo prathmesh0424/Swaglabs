@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{DA6D7EF7-5B05-4735-AAF0-A85E47D47989}" version="15.0">
+	<children>
+		<child name="imageI" key="{110D0D72-91F7-4051-AD9D-1A1F1B46228F}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="imageI" ID="{110D0D72-91F7-4051-AD9D-1A1F1B46228F}" FileName="Regions\imageI.png" Update="False" />
+		</child>
+		<child name="imageCTheCompleteReference" key="{8D143517-531A-4035-BE9C-5ABFB893BF39}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="imageCTheCompleteReference" ID="{8D143517-531A-4035-BE9C-5ABFB893BF39}" FileName="Regions\imageCTheCompleteReference.png" Update="False" />
+		</child>
+		<child name="imageImgblkfront" key="{A54CBF52-3790-4749-93DD-A4836A97146B}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="imageImgblkfront" ID="{A54CBF52-3790-4749-93DD-A4836A97146B}" FileName="Regions\imageImgblkfront.png" Update="False" />
+		</child>
+	</children>
+</Root>
